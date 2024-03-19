@@ -1,0 +1,381 @@
+1. What are the popular DevOps tools that you use? 
+We use folowingtoolsfor work inDevOps: 
+I. 
+Jenkins : This is an open source automation server used as a continuous integration tool. We can build, 
+deployand runautomated tests withJenkins. 
+II. 
+GIT:It is a version controltool used for tracking changesin files and software. 
+III. 
+Docker : This is a popular tool for containerization of services. It is very useful in Cloud based deployments. 
+IV. 
+Nagios :We use Nagiosfor monitoring ofITinfrastructure. 
+V. 
+Splunk :Thisis a powerfultoolfor log search as wel as monitoring production systems. 
+VI. 
+Puppet :We use Puppet to automate our DevOps work so that it isreusable.
+2. What are the main benefits of DevOps? 
+DevOpsis a very popular trend inSoftware Development. Some ofthe main benefits ofDevOps are asfolows: 
+I. 
+Release Velocity : DevOps practices help in increasing the release velocity. We can release code to 
+productionmore oftenand withmore confidence. 
+II. 
+Development Cycle : With DevOps, the complete Development cycle from initial design to production 
+deployment becomesshorter. 
+III. 
+Deployment Rollback : In DevOps, we plan for any failure in deployment rolback due to a bug in code or 
+issue in production. This gives confidence in releasing feature without worrying about downtime for rolback. 
+IV. 
+Defect Detection: With DevOps approach, we can catch defects much earlier than releasing to production.It improvesthe quality ofthe software. 
+V. 
+Recovery fromFailure :In case of a failure, we can recover very fast withDevOps process. 
+VI. 
+Collaboration:WithDevOps, colaboration between development and operations professionalsincreases. 
+VII. 
+Performance-oriented : With DevOps, organization folows performance-oriented culture in which teams 
+becomemore productive andmore innovative
+4. How do you take DevOps approach with Amazon Web Services? 
+Amazon Web Services (AWS) provide many tools and features to deploy and manage applications inAWS. As per DevOps, 
+we treat infrastructure as code. We mainly use folowing two servicesfromAWS for DevOps: 
+I. 
+CloudFormation : We use AWS CloudFormation to create and deploy AWS resources by using templates. 
+We can describe our dependencies and pass special parameters in these templates. CloudFormation can read 
+these templates and deploy the application and resourcesinAWS cloud. 
+II. 
+OpsWorks : AWS provides another service caled OpsWorks that is used for configuration management by 
+utilizing Chef framework. We can automate server configuration, deployment and management by using 
+OpsWorks. It helpsinmanaging EC2 instancesinAWS as wel as any on-premisesservers.
+5. How will you run a script automatically when a developer commits a 
+change into GIT? 
+GITprovidesthe feature to execute customscripts when certain event occursinGIT. Thisfeature is caled hooks. 
+We canwrite two types ofhooks. 
+I. 
+Client-side hooks 
+II. 
+Server-side hooks 
+For this case, we can write a Client-side post-commit hook. This hook wil execute a customscript inwhich we can add the 
+message and code thatwewantto runautomaticalywitheachcommit.
+8. What is CICD in DevOps? 
+CICD stands for Continuous Integration and Continuous Delivery. These are two dif erent concepts that are complementary to 
+each other. 
+Continuous Integration (CI) : In CI al the developer work is merged to main branch several times a day. This helps in 
+reducing integration problems. 
+InCI we try to minimize the duration for which a branch remains checked out. Adeveloper gets early feedback on the new 
+code added to mainrepository byusingCI. 
+Continuous Delivery (CD) : In CD, a software team plans to deliver software in short cycles. They perform development, 
+testingand release insucha short time that incrementalchanges canbe easilydelivered to production. 
+In CD, as a DevOps we create a repeatable deployment process that can help achieve the objective of Continuous Delivery. 
+9. What are the best practices of Continuous Integration (CI)? 
+Some ofthe best practices ofContinuous Integration (CI) are asfolows: 
+I. 
+Build Automation : In CI, we create such a build environment that even with one command build can be 
+triggered. This automationis done al the wayup to deployment to Productionenvironment. 
+II. 
+Main Code Repository : In CI, we maintain a main branch in code repository that stores al the Production 
+ready code. Thisisthe branch that we can deploy to Production any time. 
+III. 
+Self-testing build : Every build in CI should be self-tested. It means with every build there is a set of tests that 
+runsto ensure that changes are ofhighquality. 
+IV. 
+Every day commits to baseline : Developers wil commit al of theirs changes to baseline everyday. This 
+ensuresthat there is no bigpileup ofcode waitingforintegrationwiththe mainrepositoryfor a longtime. 
+V. 
+Build every commit to baseline : With Automated Continuous Integration, every time a commit is made into 
+baseline, a build istriggered. This helpsinconfirmingthat everychange integrates correctly. 
+VI. 
+Fast Build Process : One of the requirements of CI is to keep the build process fast so that we can quickly 
+identify any problem. 
+VII. 
+Productionlike environment testing :In CI, we maintain a production like environment also known as pre
+production or staging environment, which is very close to Production environment. We performtesting in this 
+environment to check for anyintegrationissues. 
+VIII. 
+PublishBuild Results : We publish build results on a common site so that everyone can see these and take 
+corrective actions. 
+IX. 
+Deployment Automation:The deployment process is automated to the extent that in a build process we can 
+add the step of deploying the code to a test environment. On this test environment al the stakeholders can 
+access and test the latest delivery.10. What are the benefits of Continuous Integration (CI)? 
+The benefits ofContinuousIntegration (CI) are asfolows: 
+I. 
+CImakesthe current build constantlyavailable fortesting, demo and release purpose. 
+II. 
+WithCI, developers writemodularcode that works wel withfrequent code check-ins. 
+III. 
+Incase ofa unittest failure or bug, developer caneasilyrevert back to the bug-free state ofthe code. 
+IV. 
+There is drastic reduction in chaos on release daywithCI practices. 
+V. 
+WithCI, we can detect Integration issues much earlier in the process. 
+VI. 
+Automated testingis one very usefulside ef ect ofimplementingCI. 
+VII. 
+Al the stakeholders including business partners can see the smal changes deployed into pre-production 
+environment. This provides earlyfeedback onthe changes to software. 
+VIII. 
+Automated CI and testing generates metrics like code-coverage, code complexity that help in improving the 
+development process. 
+11. What are the options for security in Jenkins? 
+In Jenkins, it is very important to make the system secure by setting user authentication and authorization. To do this we have 
+to do folowing: 
+I. 
+First we have to set up the Security Realm. We can integrate Jenkins with LDAP server to create user 
+authentication. 
+II. 
+Second part isto set the authorization for users. This determines which user has accessto what resources. 
+In Jenkins some ofthe optionsto setup security are asfolows: 
+I. 
+We canuse Jenkins’ ownUser Database. 
+II. 
+We can use LDAP pluginto integrate Jenkins withLDAP server. 
+III. 
+We can also setup Matrix based security on Jenkins.
+15. What are the main benefits of Ansible? 
+Ansible is a powerful tool for IT Automation for large scale and complex deployments. It increases the productivity of team. 
+Some ofthe main benefits ofAnsible are asfolows: 
+I. 
+Productivity :It helpsindeliveringand deployingwithspeed. It increases productivityinan organization. 
+II. 
+Automation : Ansible provides very good options for automation. With automation, people can focus on 
+delivering smartsolutions. 
+III. 
+Large-scale :Ansible can be used in smal as wel as very large-scale organizations. 
+IV. 
+Simple DevOps : With Ansible, we can write automation in a human-readable language. This simplifies the 
+task ofDevOps. 
+16. What are the main use cases of Ansible? 
+Some ofthe popular use cases ofAnsible are asfolows: 
+I. 
+AppDeployment :WithAnsible, we can deploy appsin a reliable and repeatable way. 
+II. 
+ConfigurationManagement :Ansible supports the automation of configuration management across multiple 
+environments. 
+III. 
+Continuous Delivery :We can release updates with zero downtime withAnsible. 
+IV. 
+Security :We canimplement complexsecurity policies withAnsible. 
+V. 
+Compliance : Ansible helps in verifying and organization’s systems in comparison with the rules and 
+regulations. 
+VI. Provisioning :We can provide newsystems and resourcesto other users withAnsible. 
+VII. 
+Orchestration:Ansible can be used in orchestration of complex deployment in a simple way. 
+17. What is Docker Hub? 
+Docker Hub is a cloud-based registry. We can use Docker Hub to link code repositories. We can even build images and store 
+theminDocker Hub. It also provideslinksto Docker Cloud to deploy the imagesto our hosts. 
+Docker Hub is a central repository for container image discovery, distribution, change management, workflow automation and
+19. What is Multi-factor authentication? 
+In security implementation, we use Multi-factor authentication (MFA). In MFA, a user is authenticated by multiple means 
+before giving accessto a resource orservice. It is diferent fromsimple user/password based authentication. 
+The most popular implementation of MFA is Two-factor authentication. In most of the organizations, we use 
+username/password and anRSAtokenastwo factorsfor authentication. 
+WithMFA, the systembecomes more secure and it cannot be easily hacked. 
+20. What are the main benefits of Nagios? 
+Nagios is open source software to monitor systems, networks and infrastructure. The main benefits of Nagios are as folows: 
+I. 
+Monitor : DevOps can configure Nagios to monitor IT infrastructure components, system metrics and 
+network protocols. 
+II. 
+Alert:Nagios wil send alerts when a critical component in infrastructure fails. 
+III. 
+Response :DevOps acknowledges alerts and takes corrective actions. 
+IV. 
+Report :PeriodicalyNagios can publish/send reports on outages, events and SLAs etc. 
+V. 
+Maintenance:Duringmaintenance windows, we canalso disable alerts. 
+VI. 
+Planning :Based on past data, Nagios helps ininfrastructure planningand upgrades.
+26. What is the use of Kubernetes? 
+We use Kubernetesfor automationoflarge-scale deployment ofContainerized applications. 
+It is anopensource systembased onconceptssimilarto Google’s deployment process ofmilions ofcontainers. 
+It can be used on cloud, on-premise datacenter and hybrid infrastructure. 
+In Kubernetes we can create a cluster ofservers that are connected to work as a single unit. We can deploy a containerized 
+applicationtoal theserversina clusterwithoutspecifyingthemachinename. 
+We have to package applications insucha waythat theydo not depend ona specific host. 
+27. What is the architecture of Kubernetes? 
+The architecture ofKubernetes consists offolowingcomponents: 
+Master : There is a master node that is responsible for managing the cluster. Master performs folowing functions in a cluster. 
+I. 
+SchedulingApplications 
+II. 
+Maintaining desired state of applications 
+III. 
+Scalingapplications 
+IV. 
+Applyingupdates to applications 
+Nodes : A Node in Kubernetes is responsible for running an application. The Node can be a Virtual Machine or a Computer 
+inthe cluster. There issoftware caled Kubelet on each node. Thissoftware is used for managingthe node and communicating 
+with theMaster node incluster. 
+There is a Kubernetes API that is used by Nodes to communicate with the Master. When we deploy an application on 
+Kubernetes, we request Master to start application containers onNodes. 
+28. How does Kubernetes provide high availability of applications in a 
+Cluster? 
+In a Kubernetes cluster, there is a Deployment Controler. This controler monitors the instances created by Kubernetes in a 
+cluster. Once a node or the machine hostingthe node goes down, Deployment Controler wil replace the node. 
+It is a self-healingmechanisminKubernetesto provide highavailabilityofapplications. 
+Therefore in Kubernetes cluster, Kubernetes Deployment Controler is responsible for starting the instances as wel as 
+replacingthe instancesincase ofa failure
+31. How do you perform Test Automation in DevOps? 
+We use Jenkins to create automated flows to run Automation tests. The first part of test automation is to develop test strategy 
+and test cases. Once automation test cases are ready for an application, we have to plug these into each Build run. 
+In eachBuild we runUnit tests, Integration tests and Functional tests. 
+With a Jenkins job, we can automate al these tasks. Once al the automated tests pass, we consider the build as green. This 
+helpsin deployment and release processesto build confidence on the application software. 
+32. What are the main services of AWS that you have used? 
+We use folowingmainservices ofAWS inour environment: 
+I. 
+EC2 : This is the Elastic Compute Cloud by Amazon. It is used to for providing computing capability to a 
+system. We can use it in places of our standalone servers. We can deploy dif erent kinds of applications on C2. 
+II. 
+S3 :We use S3 inAmazon for our storage needs. 
+III. 
+DynamoDB :We use DynamoDBinAWS for storing data in NoSQLdatabase form. 
+IV. 
+AmazonCloudWatch: We use CloudWatchto monitorour applicationinCloud. 
+V. 
+Amazon SNS : We use Simple Notification Service to inform users about any issues in Production 
+environment. 
+33. Why GIT is considered better than CVS for version control system? 
+GIT is a distributed system. In GIT, any person can create its own branch and start checking in the code. Once the code is 
+tested, it is merged into mainGIT repo. IN between, Dev, QA and product can validate the implementation of that code. 
+InCVS, there is a centralized systemthat maintains al the commits and changes. 
+GITis opensource software and there are plentyof extensionsinGITfor use by ourteams. 
+34. What is the difference between a Container and a Virtual Machine? 
+We need to select an Operating System (OS) to get a specific Virtual Machine (VM). VM provides ful OS to an application 
+forrunning ina virtualized environment. 
+AContainer uses APIs of anOperatingSystem(OS) to provide runtime environment to an application. 
+AContaineris verylightweight in comparisonwitha VM. 
+VM provides higher level ofsecurity compared to a Container. 
+AContainer just providesthe APIsthat are required by the application.35. What is Serverless architecture? 
+Serverless Architecture is a termthat refersto folowing: 
+I. 
+AnApplication that depends on a third-party service. 
+II. 
+AnApplication inwhichCode isrun on ephemeral containers. 
+InAWS, Lambda is a popularservice to implement Serverless architecture. 
+Another concept in Serverless Architecture is to treat code as a service or Function as a Service (FAAS). We just write code 
+that can be run on any environment or server without the need ofspecifying which server should be used to run this code. 
+36. What are the main principles of DevOps? 
+DevOpsis diferentfromTechnicalOperations. It hasfolowingmainprinciples: 
+I. 
+Incremental : In DevOps we aim to incrementaly release software to production. We do releases to 
+productionmore often thanWaterfal approach of one large release. 
+II. 
+Automated:To enable use to make releases more often, we automate the operations fromCode Check in to 
+deployment inProduction. 
+III. 
+Collaborative : DevOps is not only responsibility of Operations team. It is a colaborative ef ort of Dev, QA, 
+Release and DevOpsteams. 
+IV. 
+Iterative :DevOps is based on Iterative principle of using a process that is repeatable. But with each iteration 
+we aimtomake the process more eficient and better. 
+V. 
+Self-Service : In DevOps, we automate things and give self-service options to other teams so that they are 
+empowered to deliver the work intheir domain. 
+37. Are you more Dev or more Ops? 
+This is a tricky question. DevOps is a new concept and in any organization the maturity of DevOps varies from highly 
+Operations oriented to highly DevOps oriented. In some projects teams are very mature and practice DevOps in it true form. 
+Insome projects, teamsrelymore onOperationsteam. 
+As a DevOps person I give first priority to the needs of an organization and project. At some times I may have to performa lot 
+ofoperations work. But witheachiteration, I aimto bringDevOps changes incrementalyto anorganization. 
+Over time, organization/projectstartsseeing results ofDevOps practices and embracesit fuly
+39. What are the Three Ways of DevOps? 
+Three Ways ofDevOpsrefersto three basic principles ofDevOps culture. These are asfolows: 
+I. 
+The First Way: Systems Thinking : In this principle we see the DevOps as a flow of work from left to right. 
+This is the time taken from Code check in to the feature being released to End customer. In DevOps culture 
+we tryto identifythe bottlenecksin this. 
+II. 
+The Second Way: Feedback Loops : Whenever there is an issue in production it is a feedback about the 
+whole development and deployment process. We try to make the feedback loop more eficient so that teams 
+can get the feedback much faster. It is a way of catching defect much earlier in process than it being reported 
+by customer. 
+III. 
+The ThirdWay: Continuous Learning : We make use offirst and second way principlesto keep on making 
+improvements in the overal process. This is the third principle in which over the time we make the process and 
+our operations highlyeficient, automated and error free by continuouslyimprovingthem. 
+40. How do you apply DevOps principles to make system Secure? 
+Security of a system is one of the most important goals for an organization. We use folowing ways to apply DevOps to 
+security. 
+I. 
+Automated Security Testing : We automate and integrate Security testing techniques for Software 
+Penetrationtestingand Fuzztestinginsoftware development process. 
+II. 
+Early Security Checks : We ensure that teams know about the security concerns at the beginning of a 
+project, rather than at the end of delivery. It is achieved by conducting Security trainings and knowledge 
+sharing sessions. 
+III. 
+Standard Process : At DevOps we try to folow standard deployment and development process that has 
+already gone through security audits. This helps in minimizing the introduction of any new security loopholes 
+due to change in the standard process
+
+42. What is a Deployment Pipeline? 
+A Deployment Pipeline is an important concept in Continuous Delivery. In Deployment Pipeline we break the build process 
+into distinctstages. In each stage we get the feedback to move onto the nextstage. 
+It is a colaborative efort between various groupsinvolved in delivering software development. 
+Oftenthe first stage inDeployment Pipeline is compilingthe code and convertinginto binaries. 
+After that we run the automated tests. Depending on the scenario, there are stages like performance testing,security check, 
+usabilitytestingetc ina Deployment Pipeline. 
+In DevOps, our aim is to automate al the stages of Deployment Pipeline. With a smooth running Deployment Pipeline, we can 
+achieve the goalofContinuous Delivery.43. What are the main features of Docker Hub? 
+Docker Hub providesfolowingmain features: 
+I. 
+Image Repositories : In Docker Hub we can push, pul, find and manage Docker Images. It is a big library 
+that hasimagesfromcommunity, oficialas wel as private sources. 
+II. 
+Automated Builds : We can use Docker Hub to create new images by making changes to source 
+code repository ofthe image. 
+III. 
+Webhooks: WithWebhooks inDocker Hub we can trigger actions that can create and build new images by 
+pushing a change to repository. 
+IV. 
+Github/Bitbucketintegration:Docker Hub also providesintegrationwithGithub and Bitbucketsystems. 
+44. What are the security benefits of using Container based system? 
+Some ofthe main security benefits of using a Container based systemare asfolows: 
+I. 
+Segregation : In a Container based system we segregate the applications on dif erent containers. Each 
+application may be running on same host but in a separate container. Each application has access to ports, files 
+and otherresourcesthat are provided to it bythe container. 
+II. 
+Transient : In a Container based system, each application is considered as a transient system. It is better than 
+a static systemthat hasfixed environmentwhichcanbe exposed overtime. 
+III. 
+Control: We use repeatable scripts to create the containers. This provides us tight control over the software 
+application that we want to deploy and run. It also reduces the risk of unwanted changes in setup that can 
+cause security loopholes. 
+IV. 
+Security Patch: In a Container based system; we can deploy security patches on multiple containers in a 
+uniformway. Also it is easier to patch a Container with an application update. 
+45. How many heads can you create in a GIT repository? 
+There can be any number of headsin a GITrepository. 
+By default there is one head known as HEAD in each repository inGIT
+47. What is a Docker container? 
+ADocker Containeris a lightweightsystemthat canbe runon a Linuxoperatingsystemor a virtualmachine. It is a package of 
+anapplicationand related dependenciesthat canbe runindependently. 
+Since Docker Container is very lightweight, multiple containers can be run simultaneously on a single server or virtual machine.With a Docker Container we can create an isolated system with restricted services and processes. A Container has private 
+viewofthe operating system. It hasits own processIDspace, file system, and network interface. 
+Multiple Docker Containers can share same Kernel. 
+48. How will you remove an image from Docker? 
+We can use docker rmi command to delete an image fromour localsystem. 
+Exact command is: 
+%dockerrmi<Image Id> 
+If we want to find IDs of al the Docker images in our local system, we can user docker images command. 
+%dockerimages 
+Ifwe want to remove a docker containerthenwe use docker rmcommand. 
+% docker rm<ContainerId> 
+49. What are the common use cases of Docker? 
+Some ofthe common use cases ofDocker are as folows: 
+I. 
+Setting up Development Environment : We can use Docker to set the development environment with the 
+applications onwhichour code is dependent. 
+II. 
+Testing Automation Setup : Docker can also help in creating the Testing Automation setup. We can setup 
+diferentservices and apps withDockerto create the automation-testingenvironment. 
+III. 
+Production Deployment : Docker also helps in implementing the Production deployment for an application. 
+We can use it to create the exact environment and process that wil be used for doing the production 
+deployment. 
+50. Can we lose our data when a Docker Container exits? 
+A Docker Container has its own file-system. In an application running on Docker Container we can write to this file-system. 
+When the container exits, data written to file-systemstil remains. When we restart the container, same data can be accessed 
+again. 
+Onlywhenwe delete the container, related data wil be deleted
