@@ -1,0 +1,24 @@
+terraform:-
+1.can we use multiple regions in the provider.tf 
+2.we created an ec2 instant using Terraform and i want to modify the instant now, how can I do it
+
+General:-
+1.if you found some bugs in prod how do you fix it.
+2.if prod branch have more code than underleying branches how do you simulate that
+
+
+1.what is ansible galaxy?
+
+(a)Ansible Galaxy refers to the Galaxy website where users can share roles, and to a command line tool for installing, creating and managing roles
+
+2.what is goroutine?
+
+(a)A Goroutine is a function or method which executes independently and simultaneously in connection with any other Goroutines present in your program. Or in other words, every concurrently executing activity in Go language is known as a Goroutines. You can consider a Goroutine like a light weighted thread.
+
+3.Can you launch Amazon Elastic Compute Cloud (EC2) instances with predetermined private IP addresses?
+
+4.Write a script to check whether a given web services is up or not by accessing a given URL.?
+
+5.Your Apache (or other) web server has a bug, and occasionally server become unresponsive. Write a script to detect this issue.?
+
+
