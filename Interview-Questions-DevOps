@@ -1459,6 +1459,49 @@ Ascendion
 28. How do you restrict an EKS pod so it can only talk to the database and nothing else on the network? Show us the NetworkPolicy you'd write ?
 
 
+wipro-L2
+==========
+1. Can you write a Horizontal Pod Autoscaler (HPA) configuration?
+2. What is HPA and how does it work?
+3. Can you explain the HPA YAML from the top?
+4. What is the API version in a Kubernetes YAML?
+5. How does the API version internally invoke/use the Kubernetes API?
+6. What does kind mean in Kubernetes?
+7. What does kind: Deployment mean?
+8. Can you give an example of a Kubernetes object that uses Deployment?
+9. Can we deploy a database using a Deployment?
+10. Is a Deployment stateful or stateless?
+11. What is the meaning of averageUtilization in HPA?
+12. How does averageUtilization: 70 work?
+13. If you have 4 replicas and the target CPU utilization is 70%, how does HPA calculate when to add another pod?
+14. If the CPU utilization crosses 70%, does HPA immediately add a new pod?
+15. How does HPA calculate the desired number of replicas?
+16. If the current replicas are 4 and CPU utilization reaches 80%, how would HPA calculate the desired replicas?
+17. How do you know the actual CPU utilization of your pods?
+18. Can you check CPU utilization using the top command?
+19. Can you monitor CPU utilization using Grafana/metrics-server?
+HPA Stabilization / Scaling Questions
+20. What is a stabilization window in HPA?
+21. Why do we use a stabilization window?
+22. If the stabilization window is 300, is that seconds or milliseconds?
+23. What does 300 seconds mean?
+24. In production, should we configure a stabilization window for both scale-up and scale-down?
+25. Why do we generally keep the scale-up stabilization window at 0?
+26. Why do we configure a stabilization window for scale-down?
+27. What is the main reason for having a stabilization window during scale-down?
+28. Why shouldn't scale-up wait for several minutes?
+29. Why is quick scaling important when traffic suddenly increases?
+30. Why is scale-down generally slower than scale-up?
+31. How do you avoid unnecessary scaling up/down due to temporary CPU spikes?
+Kubernetes / DevOps Experience Questions
+32. In your current role, what percentage of your work is debugging versus development?
+33. What is the majority of your work in your current role?
+34. Have you worked with Terraform?
+35. Have you worked with Kubernetes/EKS?
+36. Can you manage deployments and EKS cluster creation?
+37. Can you handle end-to-end deployment activities?
+
+
 
 
 
