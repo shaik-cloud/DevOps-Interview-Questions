@@ -1503,6 +1503,37 @@ Kubernetes / DevOps Experience Questions
 
 
 
+NuSummit  (NSEIT Limited) L1: Interview Questions
+========================================
+CI/CD
+1. If a CI/CD job fails, what troubleshooting method would you follow?
+2. How do you identify whether a CI/CD failure is caused by dependencies, the build agent, credentials, infrastructure, network, code, Docker, or deployment?
+ Linux
+3. If a service hosted on a Linux server fails, how would you troubleshoot it? What could be the reasons for the failure?
+4. What is the difference between restart and reload of a Linux service?
+5. What is log rotation? Have you implemented log rotation in your projects?
+6. How would you check CPU, memory, disk utilization, processes, ports, and service logs on Linux?
+Ansible( Ansible is not part of my current project , so I will say ,I worked with Ansible 3+ years ago, so I’ll need a quick refresher. If there is a project  requirements I will brush up with in a week, so they will ask basic questions or they can so for other topics in Interview)
+7. How do you restart a service using an Ansible ad-hoc command?
+8. Have you written Ansible playbooks or tasks? Explain your experience with them.
+Docker
+9. What are the different Docker network types?
+10. Have you written a Dockerfile? What type of Dockerfile have you worked with?
+11. What is the difference between copy and Add in a Dockerfile?
+12. If Container A is connected to Network A and Container B is connected to Network B, can they communicate? If not, how can you enable communication?
+13. If a Maven Docker image is very large, how would you reduce its image size?
+Kubernetes
+14. Have you worked with Kubernetes?
+15. Explain the Kubernetes architecture and its major components.
+16. What are readiness probes and liveness probes? Explain the difference with an example.
+17. What is the difference between stateful and stateless applications?
+
+
+
+
+
+
+
 
 
 
