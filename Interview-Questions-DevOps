@@ -1026,7 +1026,9 @@ Capgemini Interview Questions
 
 
 
-1. LTM interview questions @channel Tell me about yourself..
+LTM interview questions:-
+=======================
+1.Tell me about yourself..
 2. What are the things you do normally in your day-to-day role?.
 3. If you have a monolithic application and want to convert it into microservices, what best practices would you follow?.
 4. How do you decide whether a monolithic application should be converted into microservices?.
@@ -1160,8 +1162,6 @@ Don’t focus only on defining Azure DevOps concepts. For scenario-based questio
 :dart: These questions are especially useful for 2–5+ years experienced Azure DevOps Engineers preparing for real-world production scenarios.
 
 
-
-
 L1 interview with Optum :
 ==================================
 Terraform
@@ -1218,8 +1218,6 @@ DevOps / General
 47. How comfortable are you with Python?
 
 
-
-
 Infosys Technical Round1
 ### **Introduction & Experience**
 *   "Can you provide me about yourself? Means in couple of minutes. Don't take much means what technology I worked on. What previous experience you have on something on those lines."
@@ -1265,8 +1263,6 @@ Infosys Technical Round1
 *   "Suppose you have a very big image, but you want to optimize that. So can you walk me through the building/optimizing of a Docker image for your Kubernetes?"
 
 
-
-
 Altematrix L1
 ==================
 1. How do you roll back your existing tag or process if your new production deployment has failed or there are some issues?
@@ -1288,9 +1284,6 @@ Altematrix L1
 17. How do you segregate the 13 clusters? How do you define the 13 clusters?
 18. Are you handling all 13 clusters with only four or five microservices?
 19. How are the clusters separated—based on region level or something else?
-
-
-
 
 ANG
 ==========
@@ -1374,10 +1367,12 @@ AT&T Interview – Questions Asked
 chmod 7444 script.sh
  what will happen?
 27. How do you interpret numeric Linux permissions such as 7, 5, 4, and 0?
+
 8. Linux – SFTP & File Transfer
 28. What is the default SFTP port?
 29. How would you securely transfer a file from one Linux server to another?
 30. What is the difference between SFTP, SCP, and FTP?
+
 9. Linux – Filesystems & Mounting
 31. How do you mount a filesystem/directory in Linux?
 32. How would you configure a filesystem so that it is automatically mounted after a server reboot?
@@ -1396,66 +1391,35 @@ Expected command:blkid
 41. How does traffic flow from an external user/laptop to a Kubernetes application?
 
 
-
-
-
-Ascendion
-========================
-
+Ascendion:-
+===========
 1. Recently did you created any deployment and service why did you created any purpose ?
-
 2. can you explain what is deployment ?
-
 3. if pod is down how do you debug ?
-
 4. You have Python, Node.js and Java applications. How would you design a common CI/CD reusable workflow?
-
 5. diff btw scripted pipeline and declarative pipelines
-
 6. what is the groovy syntax ?
-
 7. MVN clean install vs MVN clean package ?
-
 8. what type of tests do you perform in pipelines ?
-
 9. how do you setup reusable workflows for 10 microservices ? how pipelines triggers for diff microservices ?
-
 10. what metrics and SLA do you define to get a pipelines health ?
-
 11. did you work on any migrations ?
-
 12. anything about security, identity and secret management ?
-
 13. can you explain how AWS IAM roles, permission boundaries and SCP work to be together in federal traders environment or SSO environment ?
-
 14. can you walk me through your trouble shooting steps to perform a security incident response when a pod in EKS compromised ?
-
 15. which monitoring tools did you used ? did you used Aws cloud watch ?
-
 16. you need to setup log collection for 6 micro services running on EKS and logs should got to cloud watch ?
-
 17. can you walk me through the steps how will you configure ?
-
 18. can you tell me how will you design a multi-tenant EKS cluster to solve several products being network, service, RBAC and cost isolation ?
-
 19. do you know what is the trade-off between AWS target profile and self managed node groups ?
-
 20. have you ever work on control plane upgrade process of EKS ?
-
 21. have you ever implement blue green deployment strategies ?
-
 22. can you tell me how you implement blue green strategy using terraform and Jenkins ?
-
 23. can you explain the architecture of Kubernetes and how components work ?
-
 24. can you tell me diff btw depolyment and statefulsets ?
-
 25. what do you understand by affinity and taints ? where you have implemented give me a real scenario ?
-
 26. do you have any exposure in python scripting ?
-
 27. can you write terraform script for EKS cluster ?
-
 28. How do you restrict an EKS pod so it can only talk to the database and nothing else on the network? Show us the NetworkPolicy you'd write ?
 
 
@@ -1502,7 +1466,6 @@ Kubernetes / DevOps Experience Questions
 37. Can you handle end-to-end deployment activities?
 
 
-
 NuSummit  (NSEIT Limited) L1: Interview Questions
 ========================================
 CI/CD
@@ -1529,9 +1492,8 @@ Kubernetes
 17. What is the difference between stateful and stateless applications?
 
 
-
-L1
-==========
+L1:-
+===
 1)Explain your complete production deployment flow.
 2)How do you set up and integrate SonarQube with CI/CD?
 3)What information is available in a SonarQube report?
@@ -1550,6 +1512,103 @@ L1
 16)How do you use monitoring and logs to identify the root cause of high CPU?
 17)What is your experience with Bash/Shell scripting?
 18)What type of project are you interested in ?  (my fav question  :slightly_smiling_face:)
+
+
+infosys L1
+=======
+1.What are your day-to-day responsibilities and DevOps experience?
+2.Which cloud platform does your current project use?
+3.What branching strategy does your team follow?
+4.Why was that Git branching strategy chosen, and what is its flow?
+5.Which branch is used for production deployments?
+6.How do you handle production hotfixes or bug fixes?
+7.How do you reflect a production hotfix back into lower environments?
+8.Which CI/CD tools have you used besides Jenkins?
+9.What phases would code go through in a Jenkins pipeline?
+10.What stages would you define in a Jenkins declarative pipeline after checkout?
+11.How would you write a Dockerfile for a Java application?
+12.How would you reduce a 2 GB Docker image to approximately 500–700 MB?
+13.How can Docker image size be reduced apart from using a smaller base image?
+14.How would you write a Bash script to convert Celsius and Fahrenheit using functions?
+15.What container scanning is performed before pushing images to ECR?
+16.Who implements code coverage and quality checks in the CI/CD pipeline?
+17.If the SonarQube quality gate fails, would you fix it or involve the development team?
+18.Which Helm files are needed to deploy an HTTP website on Kubernetes?
+19.How would you configure HTTPS and provide a certificate for a Kubernetes URL?
+20.Where is the TLS certificate mapped in the Kubernetes manifest?
+21.How would you handle accidental deletion of a production RDS database?
+22.What is Terraform state?
+23.Where is the Terraform state file stored?
+24.How would you change Kubernetes pod logs from UTC to a client’s local time zone?
+25.How would you give Ramesh read-only access only to Namespace A?
+26.How do you upgrade an AWS EKS cluster?
+27.How do you choose a VPC CIDR block for AWS infrastructure?
+
+
+Company: ITC Infotech
+Role: DevOps Engineer
+Round: 1st Round - Technical Interview
+
+Questions Asked:-
+1. What is the importance of DevOps in the Software Development Life Cycle (SDLC)?.
+2. How is Cl achieved?.
+3. How do you ensure security and compliance in CI/CD?.
+4. How does containerization work in deployments?.
+5. Explain Blue-Green deployment..
+6. What is self-healing in Kubernetes?.
+7. How would you troubleshoot an unreachable pod?.
+8. What are the use cases of Ansible?.
+9. Explain Infrastructure as Code (laC)..
+10. What happens when you run "terraform init"?.
+11. What are the different Linux distributions?.
+12. How do you check the performance of a Linux server?.
+13. What commands do you use to troubleshoot network issues in Linux?.
+14. What kind of Bash scripts have you used in your project?.
+15. What AWS services have you worked with?.
+16. Have you used both CloudFormation and Terraform?.
+17. What is the difference between CloudFormation and Terraform? Which is better?.
+18. If you are working specifically with AWS, which would you choose: CloudFormation or Terraform?.
+19. Write a simple Dockerfile for a Node.js application..
+20. How would you write the same Dockerfile using a multi-stage build?.
+21. Can you create a Jenkins pipeline for building and deploying the Docker image?.
+22. If an application is deployed to EKS and a pod fails, how would you investigate it?.
+
+
+
+
+
+Deloitte interview questions:-
+============================
+1. Production EKS application is returning intermittent 502 errors through ALB. How will you troubleshoot it step-by-step?
+2. An EC2 instance is running and passing status checks, but the application is unreachable. What will you check?
+3. An application in a private subnet cannot access S3 even though outbound HTTPS is allowed. What could be wrong?
+4. One AWS Availability Zone goes down. How will your production architecture continue serving traffic?
+5. How would you design a multi-account AWS environment with centralized security, logging, governance, and billing?
+6. When would you choose Transit Gateway over VPC Peering in a production environment?
+7. Terraform wants to destroy and recreate a production resource after a minor configuration change. How will you investigate?
+8. Two engineers execute terraform apply simultaneously. What can happen and how will you prevent it?
+9. How would you structure Terraform code for dev, QA, staging, and production environments?
+10. Your Terraform state file is accidentally deleted or corrupted. How would you recover?
+11. A Kubernetes Pod is in CrashLoopBackOff. How will you identify the root cause?
+12. Kubernetes Pods remain Pending, even though nodes appear to have enough CPU and memory. What will you check?
+13. EKS HPA is configured correctly, but replicas are not increasing. How will you troubleshoot?
+14. An EKS node suddenly becomes NotReady. What would you investigate?
+15. Pods are healthy internally, but the application cannot be accessed through the ALB Ingress. How will you troubleshoot?
+16. How would you perform a zero-downtime deployment on EKS?
+17. How would you implement blue-green or canary deployment for a production EKS application?
+18. Your Kubernetes application is OOMKilled even though the node has plenty of available memory. Why can this happen?
+19. A Jenkins pipeline successfully builds and pushes a Docker image, but the EKS deployment fails. How will you troubleshoot?
+20. How would you securely allow Jenkins to deploy to AWS without storing long-lived AWS access keys?
+21. Your CI/CD pipeline takes 40 minutes to complete. How would you identify and reduce the bottlenecks?
+22. A Docker container works perfectly on your laptop but fails after deployment to EKS. What would you check?
+23. A Docker image is 2 GB in size. How would you reduce its size without breaking the application?
+24. Production deployment completed successfully, but application latency increased five minutes later. How will you investigate?
+25. CPU and memory utilization are normal, but users report that the application is very slow. What metrics and components would you investigate?
+26. Prometheus is running, but Grafana is not displaying metrics. How would you troubleshoot?
+27. An EC2 instance suddenly generates unusually high network traffic. How would you investigate whether it is an application, configuration, or security issue?
+28. EKS Pods cannot connect to RDS even though the security groups appear correct. What else could be causing the problem?
+29. Your company discovers that a production security group was changed to 0.0.0.0/0. How would you detect who changed it, investigate it, and prevent it from happening again?
+30. Production is completely down. How would you systematically troubleshoot the complete flow: Route 53 → CloudFront/ALB → EKS → Pods → RDS and determine the root cause?
 
 
 
