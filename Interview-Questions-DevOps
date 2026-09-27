@@ -1573,10 +1573,6 @@ Questions Asked:-
 21. Can you create a Jenkins pipeline for building and deploying the Docker image?.
 22. If an application is deployed to EKS and a pod fails, how would you investigate it?.
 
-
-
-
-
 Deloitte interview questions:-
 ============================
 1. Production EKS application is returning intermittent 502 errors through ALB. How will you troubleshoot it step-by-step?
