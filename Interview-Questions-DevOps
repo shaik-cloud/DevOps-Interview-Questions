@@ -1663,6 +1663,60 @@ We have drained the nodes and still pods are running what would be the reason?
 ============================================================================================================
 
 
+CAPGEMINI INTERVIEW QUESTIONS – 29 SEPTEMBER 2026
+AWS + DEVOPS
+
+1. Explain your current project architecture end-to-end. What happens when a user accesses your application?
+2. ALB is returning 502 errors, but all EKS pods show "Running". How would you troubleshoot?
+3. An application running in a private subnet needs internet access. What AWS components are required?
+4. Two VPCs need communication. When would you choose VPC Peering vs Transit Gateway?
+5. An EC2 instance is running, but you cannot SSH into it. What will you check step by step?
+6. How would you design a highly available and fault-tolerant AWS architecture across multiple Availability Zones?
+7. A developer accidentally makes an S3 bucket publicly accessible. How would you prevent and detect this?
+8. How would you implement centralized governance across multiple AWS accounts using AWS Organizations?
+9. Your application needs to store database credentials securely. Where would you store them and how would the application retrieve them?
+10. How would you implement CloudTrail + EventBridge + SNS to alert when a security group is modified?
+11. Explain your CI/CD pipeline from Git commit to production deployment.
+12. A Jenkins pipeline works manually but fails when executed automatically. How would you troubleshoot it?
+13. How would you implement zero-downtime deployment for an application running on Kubernetes?
+14. A Kubernetes pod is continuously going into CrashLoopBackOff. What will you check?
+15. A pod is stuck in Pending state. What are the possible reasons?
+16. HPA is not scaling pods even though CPU usage is high. How would you troubleshoot it?
+17. Explain Deployment vs StatefulSet vs DaemonSet with real project use cases.
+18. Your Kubernetes application needs persistent storage. How would you design PV/PVC with AWS EBS or EFS?
+19. Explain Terraform state management in a team environment. How would you prevent concurrent state modifications?
+20. What is the difference between Terraform "count" and "for_each"? When would you use each?
+21. Your Terraform deployment partially succeeds and then fails. How would you troubleshoot and recover safely?
+22. How would you manage secrets in a CI/CD pipeline without exposing them in Jenkins logs or Git?
+23. Production CPU suddenly reaches 100%. Walk me through your incident-response process from detection to resolution.
+24. How would you monitor an EKS production environment using CloudWatch, Prometheus, and Grafana?
+25. A production deployment causes errors. How would you decide between rollback and fix-forward?
+==============================================================================================
+
+LTIMindtree – AWS DevOps Engineer Interview Questions 30/09/2026
+
+1. Your production pod is in CrashLoopBackOff. Walk me through exactly how you would troubleshoot it.
+2. A pod is stuck in Pending state even though your EKS cluster has worker nodes. What would you check?
+3. Your application is working inside the cluster but users cannot access it from the internet. How would you troubleshoot the complete traffic flow?
+4. HPA is configured, but pods are not scaling when CPU usage increases. How would you identify the issue?
+5. One EKS node suddenly becomes NotReady during production traffic. What happens to the workloads and what actions would you take?
+6. A new Kubernetes deployment is successful, but users are still receiving the old application version. How would you investigate?
+7. Your Terraform plan wants to destroy an existing production resource. Before running apply, what would you check?
+8. Two engineers need to work on the same Terraform infrastructure simultaneously. How would you design the state management?
+9. Someone manually changes an AWS resource that is managed by Terraform. What will happen during the next plan, and how would you handle it?
+10. You need to create multiple similar AWS resources, but individual resources may need to be added or removed later. How would you design the Terraform code?
+11. Your Docker image has become very large and deployments are slow. How would you optimize the image?
+12. A container works on your laptop but fails when deployed to Kubernetes. How would you find the difference?
+13. A Docker container starts and immediately exits. What commands and checks would you use to find the root cause?
+14. Your application needs different configuration values for Dev, QA, and Production. How would you manage them using Docker and Kubernetes?
+15. You need to deploy an application to 50 servers using Ansible. How would you structure the inventory and playbook?
+16. An Ansible playbook succeeds on 9 servers but fails on the 10th. How would you troubleshoot it?
+17. Your Ansible playbook is executed repeatedly, but you want it to make changes only when required. How would you achieve this?
+18. You need to restart a service only when a configuration file changes. How would you implement this in Ansible?
+19. Your CI/CD pipeline builds a Docker image, pushes it to ECR, and deploys it to EKS. The pipeline succeeds but the application is unavailable. How would you troubleshoot it end to end?
+20. You are asked to deploy a new application version to production with zero downtime and an easy rollback option. How would you design the solution using Docker, Kubernetes, Terraform, and Ansible?
+
+
  
 
 
