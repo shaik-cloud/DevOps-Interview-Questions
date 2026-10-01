@@ -1607,6 +1607,33 @@ Deloitte interview questions:-
 30. Production is completely down. How would you systematically troubleshoot the complete flow: Route 53 → CloudFront/ALB → EKS → Pods → RDS and determine the root cause?
 =================================================================================================================
 
+company: prodapt
+ L1 interview
+ ============
+1.Can you introduce yourself briefly?
+2.Do you have experience with both Azure and AWS?
+3.Which CI/CD tools have you worked with?
+4.How do you rate yourself in Terraform?
+5.What is Terraform drift?
+6.How do you identify Terraform drift?
+7.What is your approach after identifying drift?
+8.What happens if you run terraform apply when drift exists?
+9.How would you handle Terraform state corruption?
+10.How do you rate yourself in Jenkins?
+11.Can you explain the Jenkins CI/CD workflow?
+12.How do you manage parallel jobs in Jenkins?
+13.How do you run two Jenkins jobs in parallel?
+14.What Git experience do you have?
+15.Which Git branching strategy do you use?
+16.What happens when you run kubectl apply -f deployment.yaml?
+17.How do you expose your application?
+18.What type of AWS load balancer is created for a Kubernetes Service of type LoadBalancer?
+19.Can you explain the Azure hierarchy?
+20.Can you explain the Azure hierarchy from Microsoft Entra ID to resources?
+21.What is the difference between Docker CMD and ENTRYPOINT?
+22.What does the $? variable represent in Linux or Bash?
+==================================================
+
 1.what is ansible galaxy?
 
 (a)Ansible Galaxy refers to the Galaxy website where users can share roles, and to a command line tool for installing, creating and managing roles
@@ -1716,6 +1743,71 @@ LTIMindtree – AWS DevOps Engineer Interview Questions 30/09/2026
 19. Your CI/CD pipeline builds a Docker image, pushes it to ECR, and deploys it to EKS. The pipeline succeeds but the application is unavailable. How would you troubleshoot it end to end?
 20. You are asked to deploy a new application version to production with zero downtime and an easy rollback option. How would you design the solution using Docker, Kubernetes, Terraform, and Ansible?
 
+Company: Cognizant
+L1 interview
+=============
+1.Could you introduce yourself and summarize your experience?
+2.Which CI/CD tools do you currently use?
+3.Do you have experience with Azure Pipelines?
+4.Can you explain your Azure DevOps or Jenkins pipeline flow and stages?
+5.How do you configure a GitHub webhook for Jenkins?
+6.What stages and tasks are included in your pipeline?
+7.Are the pipeline stages sequential or parallel?
+8.What Jenkins agents do you use?
+9.What does Helm do in Kubernetes?
+10.What does Helm produce, and how does it work with Docker images?
+11.Where do you deploy Helm charts?
+12.How do you deploy services to an EKS cluster?
+13.Can you explain Kubernetes architecture?
+14.How do Pods communicate with each other?
+15.How does an end user access an application running in Kubernetes?
+16.What types of Kubernetes Services do you know?
+17.Which Kubernetes Services have you used?
+18.What is the difference between ClusterIP, NodePort, and LoadBalancer?
+19.How does traffic flow when a user accesses an application in Kubernetes?
+20.How does a request flow from a public URL to a Pod in Amazon EKS?
+21.Why use Ingress if a Kubernetes Service can be exposed through NodePort?
+22.How are Pods, Services, and Ingress connected?
+23.How does Ingress route traffic to Services and Services route traffic to Pods?
+24.How would you handle insufficient Pods for incoming workload?
+25.How does Kubernetes autoscaling work?
+26.Which Kubernetes object is used for Pod autoscaling?
+27.How do you access logs if a Kubernetes Pod is deleted?
+28.How does Prometheus discover Kubernetes metrics?
+29.What deployment strategy are you currently using?
+30.How do you implement blue-green deployment with Kubernetes and Helm?
+31.What is a canary deployment?
+32.How do you implement a canary deployment with Ingress?
+33.How do you store and manage secrets?
+34.How do you access secrets securely in an Azure DevOps pipeline?
+35.How do you integrate Azure Key Vault with an Azure Pipeline?
+=========================================================
+• Tell me about yourself and your current roles and responsibilities..
+• What monitoring tools have you used?.
+• How does communication happen between services?.
+• What rules do you configure in Ingress, and why use an Ingress Controller?.
+• How does traffic flow from a client to a pod in Kubernetes?.
+• What is Amazon Route 53?.
+• How does Route 53 connect to a Kubernetes endpoint?.
+• How would you troubleshoot a pod in CrashLoopBackOff?.
+• Have you recently faced an application or cluster incident?.
+• What deployment strategies do you use?.
+• What deployment strategies have you used apart from blue-green deployment?.
+• Have you worked with Terraform?.
+• What is Terraform state locking?.
+• How would you resolve a Terraform state-locking issue?.
+• Have you worked with Terraform modules?.
+• How would you manage one Terraform codebase across multiple environments?.
+• What is Terraform drift?.
+• Have you worked with Docker, and how have you used it?.
+• What is Docker?.
+• What are the contents and steps involved in a Dockerfile?.
+• What is the difference between CMD and ENTRYPOINT?.
+• Have you worked with Jenkins?.
+• What steps are involved in a Jenkins CI/CD pipeline?.
+• How would you publish or deploy an application after receiving a bad gateway error?.
+First round DevOps Engineer at TeKreant India Pvt Ltd
+=================================================
 
  
 
